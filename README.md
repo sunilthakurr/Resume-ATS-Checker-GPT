@@ -1,8 +1,8 @@
-AI-Powered Resume Screening System
+Resume-ATS-Checker-GPT
 
 Overview
 
-The AI-Powered Resume Screening System is designed to help recruiters efficiently analyze and match job seekers with suitable roles based on their skills and experiences. The system leverages OpenAI's GPT model for intelligent resume parsing and scoring, ensuring accurate and insightful candidate evaluations.
+The Resume-ATS-Checker-GPT is designed to help recruiters efficiently analyze and match job seekers with suitable roles based on their skills and experiences. The system leverages OpenAI's GPT model for intelligent resume parsing and scoring, ensuring accurate and insightful candidate evaluations.
 
 Features
 
@@ -42,8 +42,8 @@ Steps
 
 Clone the repository:
 
-git clone https://github.com/sunilthakurr/resume-ats-checker.git
-cd resume-ats-checker
+git clone https://github.com/sunilthakurr/Resume-ATS-Checker-GPT.git
+cd Resume-ATS-Checker-GPT
 
 Set up environment variables:
 
@@ -58,7 +58,7 @@ RABBITMQ_HOST=localhost
 Build and run the project:
 
 mvn clean install
-java -jar target/ai-resume-screening-system.jar
+java -jar target/resume-ats-checker-gpt.jar
 
 Test the APIs:
 
@@ -99,3 +99,4 @@ This project is licensed under the MIT License.
 Contact
 
 For inquiries, please contact sunilthakurkv@gmail.com.
+
